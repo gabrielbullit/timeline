@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8CD868D31CD96A75005534EA"
-               BuildableName = "timeline.app"
-               BlueprintName = "timeline"
-               ReferencedContainer = "container:timeline.xcodeproj">
+               BuildableName = "evolution.app"
+               BlueprintName = "evolution"
+               ReferencedContainer = "container:evolution.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8CD868EF1CD96A79005534EA"
-               BuildableName = "timelineTests.xctest"
-               BlueprintName = "timelineTests"
-               ReferencedContainer = "container:timeline.xcodeproj">
+               BuildableName = "evolution.xctest"
+               BlueprintName = "evolutionTests"
+               ReferencedContainer = "container:evolution.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8CD868FA1CD96A79005534EA"
-               BuildableName = "timelineUITests.xctest"
-               BlueprintName = "timelineUITests"
-               ReferencedContainer = "container:timeline.xcodeproj">
+               BuildableName = "evolution.xctest"
+               BlueprintName = "evolutionUITests"
+               ReferencedContainer = "container:evolution.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8CD868D31CD96A75005534EA"
-            BuildableName = "timeline.app"
-            BlueprintName = "timeline"
-            ReferencedContainer = "container:timeline.xcodeproj">
+            BuildableName = "evolution.app"
+            BlueprintName = "evolution"
+            ReferencedContainer = "container:evolution.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8CD868D31CD96A75005534EA"
-            BuildableName = "timeline.app"
-            BlueprintName = "timeline"
-            ReferencedContainer = "container:timeline.xcodeproj">
+            BuildableName = "evolution.app"
+            BlueprintName = "evolution"
+            ReferencedContainer = "container:evolution.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8CD868D31CD96A75005534EA"
-            BuildableName = "timeline.app"
-            BlueprintName = "timeline"
-            ReferencedContainer = "container:timeline.xcodeproj">
+            BuildableName = "evolution.app"
+            BlueprintName = "evolution"
+            ReferencedContainer = "container:evolution.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

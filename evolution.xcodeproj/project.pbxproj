@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C7A14511CE415EB00D996EF /* camera-icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C7A14501CE415EB00D996EF /* camera-icon.jpg */; };
 		8CD868D91CD96A75005534EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD868D81CD96A75005534EA /* main.m */; };
 		8CD868DC1CD96A75005534EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD868DB1CD96A75005534EA /* AppDelegate.m */; };
 		8CD868DF1CD96A76005534EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD868DE1CD96A76005534EA /* ViewController.m */; };
@@ -16,6 +17,7 @@
 		8CD868EA1CD96A76005534EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD868E81CD96A76005534EA /* LaunchScreen.storyboard */; };
 		8CD868F51CD96A79005534EA /* timelineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD868F41CD96A79005534EA /* timelineTests.m */; };
 		8CD869001CD96A79005534EA /* timelineUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD868FF1CD96A79005534EA /* timelineUITests.m */; };
+		8CD8690F1CD985AD005534EA /* Default.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 8CD8690E1CD985AD005534EA /* Default.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8CD868D41CD96A75005534EA /* timeline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = timeline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7A14501CE415EB00D996EF /* camera-icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "camera-icon.jpg"; sourceTree = "<group>"; };
+		8CD868D41CD96A75005534EA /* evolution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = evolution.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD868D81CD96A75005534EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8CD868DA1CD96A75005534EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8CD868DB1CD96A75005534EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -47,12 +50,13 @@
 		8CD868E61CD96A76005534EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CD868E91CD96A76005534EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CD868EB1CD96A76005534EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8CD868F01CD96A79005534EA /* timelineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = timelineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD868F01CD96A79005534EA /* evolution.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = evolution.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD868F41CD96A79005534EA /* timelineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = timelineTests.m; sourceTree = "<group>"; };
 		8CD868F61CD96A79005534EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8CD868FB1CD96A79005534EA /* timelineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = timelineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD868FB1CD96A79005534EA /* evolution.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = evolution.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD868FF1CD96A79005534EA /* timelineUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = timelineUITests.m; sourceTree = "<group>"; };
 		8CD869011CD96A79005534EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CD8690E1CD985AD005534EA /* Default.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Default.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,9 +97,9 @@
 		8CD868D51CD96A75005534EA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8CD868D41CD96A75005534EA /* timeline.app */,
-				8CD868F01CD96A79005534EA /* timelineTests.xctest */,
-				8CD868FB1CD96A79005534EA /* timelineUITests.xctest */,
+				8CD868D41CD96A75005534EA /* evolution.app */,
+				8CD868F01CD96A79005534EA /* evolution.xctest */,
+				8CD868FB1CD96A79005534EA /* evolution.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +107,7 @@
 		8CD868D61CD96A75005534EA /* timeline */ = {
 			isa = PBXGroup;
 			children = (
+				8CD8690D1CD984BB005534EA /* Resources */,
 				8CD868DA1CD96A75005534EA /* AppDelegate.h */,
 				8CD868DB1CD96A75005534EA /* AppDelegate.m */,
 				8CD868DD1CD96A76005534EA /* ViewController.h */,
@@ -143,12 +148,21 @@
 			path = timelineUITests;
 			sourceTree = "<group>";
 		};
+		8CD8690D1CD984BB005534EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8C7A14501CE415EB00D996EF /* camera-icon.jpg */,
+				8CD8690E1CD985AD005534EA /* Default.JPG */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8CD868D31CD96A75005534EA /* timeline */ = {
+		8CD868D31CD96A75005534EA /* evolution */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8CD869041CD96A79005534EA /* Build configuration list for PBXNativeTarget "timeline" */;
+			buildConfigurationList = 8CD869041CD96A79005534EA /* Build configuration list for PBXNativeTarget "evolution" */;
 			buildPhases = (
 				8CD868D01CD96A75005534EA /* Sources */,
 				8CD868D11CD96A75005534EA /* Frameworks */,
@@ -158,14 +172,14 @@
 			);
 			dependencies = (
 			);
-			name = timeline;
+			name = evolution;
 			productName = timeline;
-			productReference = 8CD868D41CD96A75005534EA /* timeline.app */;
+			productReference = 8CD868D41CD96A75005534EA /* evolution.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8CD868EF1CD96A79005534EA /* timelineTests */ = {
+		8CD868EF1CD96A79005534EA /* evolutionTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8CD869071CD96A79005534EA /* Build configuration list for PBXNativeTarget "timelineTests" */;
+			buildConfigurationList = 8CD869071CD96A79005534EA /* Build configuration list for PBXNativeTarget "evolutionTests" */;
 			buildPhases = (
 				8CD868EC1CD96A79005534EA /* Sources */,
 				8CD868ED1CD96A79005534EA /* Frameworks */,
@@ -176,14 +190,14 @@
 			dependencies = (
 				8CD868F21CD96A79005534EA /* PBXTargetDependency */,
 			);
-			name = timelineTests;
+			name = evolutionTests;
 			productName = timelineTests;
-			productReference = 8CD868F01CD96A79005534EA /* timelineTests.xctest */;
+			productReference = 8CD868F01CD96A79005534EA /* evolution.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8CD868FA1CD96A79005534EA /* timelineUITests */ = {
+		8CD868FA1CD96A79005534EA /* evolutionUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8CD8690A1CD96A79005534EA /* Build configuration list for PBXNativeTarget "timelineUITests" */;
+			buildConfigurationList = 8CD8690A1CD96A79005534EA /* Build configuration list for PBXNativeTarget "evolutionUITests" */;
 			buildPhases = (
 				8CD868F71CD96A79005534EA /* Sources */,
 				8CD868F81CD96A79005534EA /* Frameworks */,
@@ -194,9 +208,9 @@
 			dependencies = (
 				8CD868FD1CD96A79005534EA /* PBXTargetDependency */,
 			);
-			name = timelineUITests;
+			name = evolutionUITests;
 			productName = timelineUITests;
-			productReference = 8CD868FB1CD96A79005534EA /* timelineUITests.xctest */;
+			productReference = 8CD868FB1CD96A79005534EA /* evolution.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -221,7 +235,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8CD868CF1CD96A75005534EA /* Build configuration list for PBXProject "timeline" */;
+			buildConfigurationList = 8CD868CF1CD96A75005534EA /* Build configuration list for PBXProject "evolution" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -234,9 +248,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8CD868D31CD96A75005534EA /* timeline */,
-				8CD868EF1CD96A79005534EA /* timelineTests */,
-				8CD868FA1CD96A79005534EA /* timelineUITests */,
+				8CD868D31CD96A75005534EA /* evolution */,
+				8CD868EF1CD96A79005534EA /* evolutionTests */,
+				8CD868FA1CD96A79005534EA /* evolutionUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -246,9 +260,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C7A14511CE415EB00D996EF /* camera-icon.jpg in Resources */,
 				8CD868EA1CD96A76005534EA /* LaunchScreen.storyboard in Resources */,
 				8CD868E71CD96A76005534EA /* Assets.xcassets in Resources */,
 				8CD868E21CD96A76005534EA /* Main.storyboard in Resources */,
+				8CD8690F1CD985AD005534EA /* Default.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,12 +317,12 @@
 /* Begin PBXTargetDependency section */
 		8CD868F21CD96A79005534EA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8CD868D31CD96A75005534EA /* timeline */;
+			target = 8CD868D31CD96A75005534EA /* evolution */;
 			targetProxy = 8CD868F11CD96A79005534EA /* PBXContainerItemProxy */;
 		};
 		8CD868FD1CD96A79005534EA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8CD868D31CD96A75005534EA /* timeline */;
+			target = 8CD868D31CD96A75005534EA /* evolution */;
 			targetProxy = 8CD868FC1CD96A79005534EA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -422,7 +438,7 @@
 				INFOPLIST_FILE = timeline/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pig-taz.timeline";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = evolution;
 			};
 			name = Debug;
 		};
@@ -433,7 +449,7 @@
 				INFOPLIST_FILE = timeline/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pig-taz.timeline";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = evolution;
 			};
 			name = Release;
 		};
@@ -444,8 +460,8 @@
 				INFOPLIST_FILE = timelineTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pig-taz.timelineTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/timeline.app/timeline";
+				PRODUCT_NAME = evolution;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/evolution.app/evolution";
 			};
 			name = Debug;
 		};
@@ -456,8 +472,8 @@
 				INFOPLIST_FILE = timelineTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pig-taz.timelineTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/timeline.app/timeline";
+				PRODUCT_NAME = evolution;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/evolution.app/evolution";
 			};
 			name = Release;
 		};
@@ -467,7 +483,7 @@
 				INFOPLIST_FILE = timelineUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pig-taz.timelineUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = evolution;
 				TEST_TARGET_NAME = timeline;
 			};
 			name = Debug;
@@ -478,7 +494,7 @@
 				INFOPLIST_FILE = timelineUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pig-taz.timelineUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = evolution;
 				TEST_TARGET_NAME = timeline;
 			};
 			name = Release;
@@ -486,7 +502,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8CD868CF1CD96A75005534EA /* Build configuration list for PBXProject "timeline" */ = {
+		8CD868CF1CD96A75005534EA /* Build configuration list for PBXProject "evolution" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8CD869021CD96A79005534EA /* Debug */,
@@ -495,29 +511,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8CD869041CD96A79005534EA /* Build configuration list for PBXNativeTarget "timeline" */ = {
+		8CD869041CD96A79005534EA /* Build configuration list for PBXNativeTarget "evolution" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8CD869051CD96A79005534EA /* Debug */,
 				8CD869061CD96A79005534EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		8CD869071CD96A79005534EA /* Build configuration list for PBXNativeTarget "timelineTests" */ = {
+		8CD869071CD96A79005534EA /* Build configuration list for PBXNativeTarget "evolutionTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8CD869081CD96A79005534EA /* Debug */,
 				8CD869091CD96A79005534EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		8CD8690A1CD96A79005534EA /* Build configuration list for PBXNativeTarget "timelineUITests" */ = {
+		8CD8690A1CD96A79005534EA /* Build configuration list for PBXNativeTarget "evolutionUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8CD8690B1CD96A79005534EA /* Debug */,
 				8CD8690C1CD96A79005534EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

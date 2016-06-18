@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:timeline.xcodeproj">
+      location = "self:/Users/bullit/Documents/Xcode projects/timeline/timeline/evolution.xcodeproj">
    </FileRef>
 </Workspace>
